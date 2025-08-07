@@ -9,7 +9,10 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 
 # ✅ Correct LangChain-compatible wrapper
 
-embedding_model = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+# embedding_model = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+
+embedding_model = HuggingFaceEmbeddings(model_name="sentence-transformers/paraphrase-MiniLM-L3-v2")
+
 
 # embedding_model = HuggingFaceEmbeddings(model_name="all-MiniLM-L12-v2")  # Slightly smaller
 
