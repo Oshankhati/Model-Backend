@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+python-docx
+PyMuPDF
+transformers
+sentence-transformers
+faiss-cpu
+tqdm
+pydantic
+python-multipart
+langchain
+langchain-community
