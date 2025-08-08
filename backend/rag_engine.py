@@ -1,3 +1,5 @@
+# rag_engine.py
+
 import os
 from pathlib import Path
 import fitz  # PyMuPDF
